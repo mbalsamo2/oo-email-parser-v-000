@@ -13,8 +13,8 @@ class EmailParser
   end
 
   def parse
-    binding.pry
-    email = self.new
+    # binding.pry
+    self.emails.scan(/,/)
   end
 
 end
