@@ -14,7 +14,7 @@ class EmailParser
 
   def parse
     # binding.pry
-    self.emails.scan(/,/)
+    self.emails.scan(/,/).uniq!
   end
 
 end
