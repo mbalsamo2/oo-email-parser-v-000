@@ -14,7 +14,7 @@ class EmailParser
 
   def parse
     # binding.pry
-    self.emails.scan(/\w*@\w*.com/).uniq!
+    self.emails.scan(/\w*@\w*.com/).uniq
   end
 
 end
