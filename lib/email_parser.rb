@@ -8,6 +8,10 @@ class EmailParser
   attr_accessor :emails
 
 
+  def initialize(emails)
+    @emails = emails
+  end
+
   def self.parse(emails)
     binding.pry
     email = self.new
