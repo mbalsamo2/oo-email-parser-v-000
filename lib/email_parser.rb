@@ -12,7 +12,7 @@ class EmailParser
     @emails = emails
   end
 
-  def self.parse(emails)
+  def parse
     binding.pry
     email = self.new
   end
