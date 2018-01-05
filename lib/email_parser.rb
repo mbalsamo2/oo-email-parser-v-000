@@ -10,7 +10,7 @@ class EmailParser
 
   def self.parse(emails)
     binding.pry
-    email.new
+    email = self.new
   end
 
 end
