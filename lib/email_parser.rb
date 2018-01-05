@@ -13,7 +13,7 @@ class EmailParser
   end
 
   def parse
-    # binding.pry
+    binding.pry
     self.emails.scan(/\w*@\w*.com/).uniq
   end
 
